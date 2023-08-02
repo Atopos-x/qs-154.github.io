@@ -105,6 +105,8 @@ $dom.asyncify = async (selector, element = document) => {
 $dom.asyncifyEach = (selector, callback, element) => {
     $dom.all(selector, element).forEach(callback);
 };
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const assetUrl = (asset, type) => {
     const str = CONFIG[asset][type];
     if (str.includes('gh') || str.includes('combine')) {
