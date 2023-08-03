@@ -2,7 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>http://example.com</id>
     <title>Atopos</title>
+    <subtitle>atopos_</subtitle>
+    <icon>http://example.com/assets/favicon.ico</icon>
     <link href="http://example.com" />
+    <author>
+      <name>Atopos</name>
+    </author>
     <updated>2023-08-01T13:38:09.094Z</updated>
     <entry>
         <id>http://example.com/2023/08/01/hello-world/</id>

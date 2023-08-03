@@ -2,7 +2,12 @@
 <rss version="2.0">
     <channel>
         <title>Atopos</title>
+        <subtitle>atopos_</subtitle>
+        <icon>http://example.com/assets/favicon.ico</icon>
         <link>http://example.com</link>
+        <author>
+          <name>Atopos</name>
+        </author>
         <description>学习笔记 &amp; 日常生活</description>
         <language>zh-CN</language>
         <pubDate>Tue, 01 Aug 2023 21:38:09 +0800</pubDate>
