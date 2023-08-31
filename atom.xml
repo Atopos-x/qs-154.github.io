@@ -8,7 +8,72 @@
     <author>
       <name>Atopos</name>
     </author>
-    <updated>2023-08-15T15:33:29.019Z</updated>
+    <updated>2023-08-19T14:41:39.000Z</updated>
+    <entry>
+        <id>https://atopos.love/%E6%96%87%E7%AB%A0%E6%A0%87%E7%AD%BE/</id>
+        <title>特殊标签</title>
+        <link rel="alternate" href="https://atopos.love/%E6%96%87%E7%AB%A0%E6%A0%87%E7%AD%BE/"/>
+        <content type="html">&lt;h1 id=&#34;文字特效&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#文字特效&#34;&gt;#&lt;/a&gt; 文字特效&lt;/h1&gt;
+&lt;p&gt;本功能基于  &lt;code&gt;markdown-it-ins&lt;/code&gt;  、  &lt;code&gt;markdown-it-bracketed-spans&lt;/code&gt;  和  &lt;code&gt;markdown-it-attrs&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;++下划线++
+++波浪线++&amp;#123;.wavy&amp;#125;
+++着重点++&amp;#123;.dot&amp;#125;
+++紫色下划线++&amp;#123;.primary&amp;#125;
+++绿色波浪线++&amp;#123;.wavy .success&amp;#125;
+++黄色着重点++&amp;#123;.dot .warning&amp;#125;
+~~删除线～～
+~~红色删除线～～&amp;#123;.danger&amp;#125;
+==荧光高亮==
+[赤橙黄绿青蓝紫]&amp;#123;.rainbow&amp;#125;
+[红色]&amp;#123;.red&amp;#125;
+[粉色]&amp;#123;.pink&amp;#125;
+[橙色]&amp;#123;.orange&amp;#125;
+[黄色]&amp;#123;.yellow&amp;#125;
+[绿色]&amp;#123;.green&amp;#125;
+[靛青]&amp;#123;.aqua&amp;#125;
+[蓝色]&amp;#123;.blue&amp;#125;
+[紫色]&amp;#123;.purple&amp;#125;
+[灰色]&amp;#123;.grey&amp;#125;
+快捷键 [Ctrl]&amp;#123;.kbd&amp;#125; + [C]&amp;#123;.kbd .red&amp;#125;
+H~2~0
+29^th^
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;ins&gt;下划线&lt;/ins&gt;&lt;br /&gt;
+&lt;ins class=&#34;wavy&#34;&gt;波浪线&lt;/ins&gt;&lt;br /&gt;
+&lt;ins class=&#34;dot&#34;&gt;着重点&lt;/ins&gt;&lt;br /&gt;
+&lt;ins class=&#34;primary&#34;&gt;紫色下划线&lt;/ins&gt;&lt;br /&gt;
+&lt;ins class=&#34;wavy success&#34;&gt;绿色波浪线&lt;/ins&gt;&lt;br /&gt;
+&lt;ins class=&#34;dot warning&#34;&gt;黄色着重点&lt;/ins&gt;&lt;br /&gt;
+～～删除线～～&lt;br /&gt;
+~~ 红色删除线～～{.danger}&lt;br /&gt;
+&lt;mark&gt; 荧光高亮&lt;/mark&gt;&lt;br /&gt;
+&lt;span class=&#34;rainbow&#34;&gt;赤橙黄绿青蓝紫&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;red&#34;&gt;红色&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;pink&#34;&gt;粉色&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;orange&#34;&gt;橙色&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;yellow&#34;&gt;黄色&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;green&#34;&gt;绿色&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;aqua&#34;&gt;靛青&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;blue&#34;&gt;蓝色&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;purple&#34;&gt;紫色&lt;/span&gt;&lt;br /&gt;
+&lt;span class=&#34;grey&#34;&gt;灰色&lt;/span&gt;&lt;br /&gt;
+快捷键 &lt;span class=&#34;kbd&#34;&gt;Ctrl&lt;/span&gt; + &lt;span class=&#34;kbd red&#34;&gt;C&lt;/span&gt;&lt;br /&gt;
+H&lt;sub&gt;2&lt;/sub&gt;0&lt;br /&gt;
+29&lt;sup&gt;th&lt;/sup&gt;&lt;/p&gt;
+&lt;h1 id=&#34;隐藏文字&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#隐藏文字&#34;&gt;#&lt;/a&gt; 隐藏文字&lt;/h1&gt;
+&lt;p&gt;本功能基于  &lt;code&gt;markdown-it-spoiler&lt;/code&gt;  和  &lt;code&gt;markdown-it-attrs&lt;/code&gt;&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;!!黑幕黑幕黑幕黑幕黑幕黑幕!!：鼠标滑过显示内容
+!!模糊模糊模糊模糊模糊模糊!!&amp;#123;.bulr&amp;#125; ： 选中文字显示内容
+&lt;/code&gt;&lt;/pre&gt;
+&lt;p&gt;&lt;span class=&#34;spoiler&#34; title=&#34;...&#34;&gt;黑幕黑幕黑幕黑幕黑幕黑幕&lt;/span&gt;：鼠标滑过显示内容&lt;br /&gt;
+&lt;span class=&#34;spoiler bulr&#34; title=&#34;...&#34;&gt;模糊模糊模糊模糊模糊模糊&lt;/span&gt;：选中文字显示内容&lt;/p&gt;
+</content>
+        <category term="theme" scheme="https://atopos.love/categories/theme/" />
+        <category term="shokaX" scheme="https://atopos.love/categories/theme/shokaX/" />
+        <category term="Theme" scheme="https://atopos.love/tags/Theme/" />
+        <category term="ShokaX" scheme="https://atopos.love/tags/ShokaX/" />
+        <updated>2023-08-19T14:41:39.000Z</updated>
+    </entry>
     <entry>
         <id>https://atopos.love/%E8%AE%A1%E7%AE%97%E6%9C%BA%E8%AF%AD%E8%A8%80/</id>
         <title>计算机语言</title>
@@ -63,29 +128,6 @@
         <updated>2023-08-15T14:41:39.000Z</updated>
     </entry>
     <entry>
-        <id>https://atopos.love/hello/</id>
-        <title>Hello</title>
-        <link rel="alternate" href="https://atopos.love/hello/"/>
-        <content type="html">&lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
-&lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
-&lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo new &lt;span class=&#34;token string&#34;&gt;&#34;My New Post&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvd3JpdGluZy5odG1s&#34;&gt;Writing&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;run-server&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#run-server&#34;&gt;#&lt;/a&gt; Run server&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo server&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvc2VydmVyLmh0bWw=&#34;&gt;Server&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;generate-static-files&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#generate-static-files&#34;&gt;#&lt;/a&gt; Generate static files&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo generate&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvZ2VuZXJhdGluZy5odG1s&#34;&gt;Generating&lt;/span&gt;&lt;/p&gt;
-&lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
-&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s&#34;&gt;Deployment&lt;/span&gt;&lt;/p&gt;
-</content>
-        <category term="计算机" scheme="https://atopos.love/categories/computer/" />
-        <category term="知识点" scheme="https://atopos.love/categories/computer/knowledge-points/" />
-        <category term="Java" scheme="https://atopos.love/categories/computer/knowledge-points/java/" />
-        <category term="知识点" scheme="https://atopos.love/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/" />
-        <category term="Java" scheme="https://atopos.love/tags/Java/" />
-        <category term="计算机" scheme="https://atopos.love/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/" />
-        <updated>2023-08-15T14:41:39.000Z</updated>
-    </entry>
-    <entry>
         <id>https://atopos.love/hello-hi/</id>
         <title>Hello-hi</title>
         <link rel="alternate" href="https://atopos.love/hello-hi/"/>
@@ -105,9 +147,9 @@
         <updated>2023-08-15T14:41:39.000Z</updated>
     </entry>
     <entry>
-        <id>https://atopos.love/%E6%96%87%E7%AB%A0%E6%A0%87%E7%AD%BE/</id>
-        <title>文章标签</title>
-        <link rel="alternate" href="https://atopos.love/%E6%96%87%E7%AB%A0%E6%A0%87%E7%AD%BE/"/>
+        <id>https://atopos.love/hello/</id>
+        <title>Hello</title>
+        <link rel="alternate" href="https://atopos.love/hello/"/>
         <content type="html">&lt;p&gt;Welcome to &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvLw==&#34;&gt;Hexo&lt;/span&gt;! This is your very first post. Check &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mv&#34;&gt;documentation&lt;/span&gt; for more info. If you get any problems when using Hexo, you can find the answer in &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3MvdHJvdWJsZXNob290aW5nLmh0bWw=&#34;&gt;troubleshooting&lt;/span&gt; or you can ask me on &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9naXRodWIuY29tL2hleG9qcy9oZXhvL2lzc3Vlcw==&#34;&gt;GitHub&lt;/span&gt;.&lt;/p&gt;
 &lt;h2 id=&#34;quick-start&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#quick-start&#34;&gt;#&lt;/a&gt; Quick Start&lt;/h2&gt;
 &lt;h3 id=&#34;create-a-new-post&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#create-a-new-post&#34;&gt;#&lt;/a&gt; Create a new post&lt;/h3&gt;
@@ -119,8 +161,12 @@
 &lt;h3 id=&#34;deploy-to-remote-sites&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#deploy-to-remote-sites&#34;&gt;#&lt;/a&gt; Deploy to remote sites&lt;/h3&gt;
 &lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;h&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;$ hexo deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;More info: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9oZXhvLmlvL2RvY3Mvb25lLWNvbW1hbmQtZGVwbG95bWVudC5odG1s&#34;&gt;Deployment&lt;/span&gt;&lt;/p&gt;
 </content>
-        <category term="shokaX" scheme="https://atopos.love/categories/shokaX/" />
+        <category term="计算机" scheme="https://atopos.love/categories/computer/" />
+        <category term="知识点" scheme="https://atopos.love/categories/computer/knowledge-points/" />
+        <category term="Java" scheme="https://atopos.love/categories/computer/knowledge-points/java/" />
         <category term="知识点" scheme="https://atopos.love/tags/%E7%9F%A5%E8%AF%86%E7%82%B9/" />
+        <category term="计算机" scheme="https://atopos.love/tags/%E8%AE%A1%E7%AE%97%E6%9C%BA/" />
+        <category term="Java" scheme="https://atopos.love/tags/Java/" />
         <updated>2023-08-15T14:41:39.000Z</updated>
     </entry>
 </feed>
